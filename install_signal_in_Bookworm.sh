@@ -11,3 +11,10 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 # Update pkgc dbase and install Signal:
 sudo apt update -y 
 sudo apt install signal-desktop
+
+########################################################
+ # End of script
+ 
+ sudo apt autoremove
+
+ printf "\e[1;32mYou are finished with install! Thanks you.\e[0m\n"
