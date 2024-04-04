@@ -1,4 +1,6 @@
-# NOTE: 64-bit Debian-based
+#!/usr/bin/env bash
+
+# NOTE: for 64-bit Debian-based
 # Linux distributions based on Debian such as Ubuntu, Mint etc.
 
 # Install official public software signing key:
