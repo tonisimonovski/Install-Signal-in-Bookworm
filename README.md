@@ -9,7 +9,7 @@ Script for auto install on Signal messenger in Debian Bookworm
 
     chmod +x install_signal_in_Bookworm.sh
 
-    ./install_signal_in_Bookworm.sh
+    sudo ./install_signal_in_Bookworm.sh
 
     sudo rm -r ~/Downloads/signal
 
